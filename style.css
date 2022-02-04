@@ -2,9 +2,6 @@ body {
     margin: 0;
     background-color: pink;
     text-align: center;
-}
-
-.container1 {
     background-image: url("gitStuffs\assets\franksinatra.jpg");
     background-repeat: no-repeat;
 }
