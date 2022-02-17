@@ -10,14 +10,19 @@
 </head>
 
 <body>
+<script>
+    function changeText(){
+        document.getElementById("bgImg").src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOw5cY9YYuPS21hzc8kxl4uEpvmDEXvn-1vQ5StQtIgbEujGngm-BwY46oILt129nXsuQ&usqp=CAU"
+    }
+</script>
     <div>
 
         <p>That's life</p>
         <p>That's what all people says</p>
-        <input type="button" class="buttone" name="InBtn" value="Press me" function="changeText">
+        <input type="button" id="bgImg" class="buttone" name="InBtn" value="Press me" onclick="changeText()" >
     </div>
 
-    
+
 </body>
 
 </html>
