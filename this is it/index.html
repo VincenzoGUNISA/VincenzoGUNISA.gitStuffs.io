@@ -5,13 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>That's index</title>
-    <link rel="stylesheet/text" href="style.css">
-    <link rel="script" href="script.js">
+    <link rel="stylesheet/text" href="\StyleS\style.css">
+    <link rel="script" href="\script\script.js">
 </head>
 <body>
     <section class="upper">
-        <button onclick="open()"><p>Username</p></button>
-        <button onclick="open()"><p>Password</p></button>
+    <form method="get">
+        <label for="username">Username</label>
+        <input type="text" id="Uname" name="username">
+        <br>
+        <label for="password">Password</label>
+        <input type="password" id="pword" name ="password">
+        
+        <buttom type="submit" class="sbmt" name = "SbmtBtn" id="IDsbmtbtn" >Send it</buttom>
+    </form>
     </section>
 </body>
 </html>
