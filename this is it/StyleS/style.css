@@ -14,8 +14,14 @@ body{
 .upper input{
     border-radius: 15px;
     padding: 4px;
-    margin: 10px 20px ;
-    
+    margin: 10px 20px ;    
+}
+
+.upper input:hover{
+    box-shadow: 0 6px red ;
+}
+.upper label {
+    color:whitesmoke;
 }
 .upper label:hover{
     opacity: 0.5;
@@ -30,5 +36,19 @@ body{
     margin-left: 160px;
     border: 2px solid orange ;
     border-radius: 30px;
-    color: red;
+    color: whitesmoke;
+}
+
+.sbmt:hover{
+    width: 80px; 
+}
+
+.secondSct{
+    display: block;
+    position: relative;
+}
+.secondSct a{
+    text-decoration: none;
+    color: green;
+    font-weight: 600;
 }
