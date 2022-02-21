@@ -1,7 +1,7 @@
 body{
     margin: 0;
     text-align: center;  
-    background-color: #6666;
+    background-color: #444;
 }
 
 .upper {
@@ -13,36 +13,33 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.upper label{
-    margin-top: 20px;
-}
-
 .upper input{
     display: block;
-    margin-left:60px;
-    border-radius: 15px;
+    margin-left:230px;
+    border-radius: 30px;
     padding: 4px;
 }
 
 .upper input:hover{
-    box-shadow: 0 6px red ;
+    box-shadow: 0 6px rgb(39, 34, 34) ;
 }
 
 .upper label {
     color:whitesmoke;
+    margin-top: 20px;
 }
 
 .upper label:hover{
     opacity: 0.5;
     color: orange;
-    font-size: small;
+    font-size: larger;
 }
 
 .sbmt {
     position: inherit;
     width: fit-content;
     border: 2px solid orange ;
-    border-radius: 2px;
+    border-radius: 20px;
     margin-top: 20px;
     color: whitesmoke;
     margin-bottom: 5px;
@@ -59,6 +56,7 @@ body{
     display: block;
     position: relative;
 }
+
 .secondSct a{
     text-decoration: none;
     color: green;
