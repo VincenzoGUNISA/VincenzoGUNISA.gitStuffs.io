@@ -5,16 +5,21 @@ body{
 }
 
 .upper {
-    position: absolute;
-    text-align: center;
-    display: inline-block;
-    margin: auto;
+    display: block;
+    box-sizing: border-box;
+    width: 50%;
+    border: 10px solid red;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+.upper label{
+    margin-left:-0px;
+}
+
 .upper input{
+    display: block;
     border-radius: 15px;
     padding: 4px;
-    margin: 10px 20px ;    
 }
 
 .upper input:hover{
@@ -30,17 +35,13 @@ body{
 }
 
 .sbmt {
-    display:flex;
+    position: inherit;
     width: fit-content;
-    text-align: center;
-    margin-left: 160px;
     border: 2px solid orange ;
     border-radius: 30px;
+    margin-top: 20px;
+    margin-left: -0px;
     color: whitesmoke;
-}
-
-.sbmt:hover{
-    width: 80px; 
 }
 
 .secondSct{
