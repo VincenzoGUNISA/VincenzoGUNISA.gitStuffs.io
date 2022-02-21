@@ -6,6 +6,7 @@ body{
 
 .upper {
     display: block;
+    margin:auto;
     box-sizing: border-box;
     width: 50%;
     border: 10px solid red;
@@ -13,11 +14,12 @@ body{
 }
 
 .upper label{
-    margin-left:-0px;
+    margin-top: 20px;
 }
 
 .upper input{
     display: block;
+    margin-left:60px;
     border-radius: 15px;
     padding: 4px;
 }
@@ -25,9 +27,11 @@ body{
 .upper input:hover{
     box-shadow: 0 6px red ;
 }
+
 .upper label {
     color:whitesmoke;
 }
+
 .upper label:hover{
     opacity: 0.5;
     color: orange;
@@ -38,10 +42,17 @@ body{
     position: inherit;
     width: fit-content;
     border: 2px solid orange ;
-    border-radius: 30px;
+    border-radius: 2px;
     margin-top: 20px;
-    margin-left: -0px;
     color: whitesmoke;
+    margin-bottom: 5px;
+}
+
+.sbmt p{
+    font-size: 14px;
+    text-align: center;
+    color:rgb(8, 10, 153);
+    font-weight: larger;
 }
 
 .secondSct{
